@@ -1,0 +1,7 @@
+jekyll:
+  build: ./images/jekyll
+  command: jekyll s -w -D --host=0.0.0.0
+  volumes:
+    - ./blog:/usr/src/app
+  ports:
+    - "17845:4000"
