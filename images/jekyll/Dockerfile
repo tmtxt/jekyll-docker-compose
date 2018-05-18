@@ -1,4 +1,4 @@
-FROM ruby:2.1.9
+FROM ruby:2.2
 RUN gem install jekyll -v '3.6.2'
 RUN gem install rouge
 RUN gem install jekyll-paginate
